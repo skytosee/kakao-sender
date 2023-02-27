@@ -1,5 +1,5 @@
-import { useParams, useState } from "react";
-import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { Navigate, useParams, Route, Routes, useNavigate } from "react-router-dom";
 import "./css/App.css";
 import Main from './common/Main';
 import LogIn from './common/login/LogIn';

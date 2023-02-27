@@ -12,7 +12,7 @@ function App() {
   console.log("App location4", window.location.href);
  
   let { code } = useParams();
-
+  console.log("code", code);
   /*
   useEffect(() => {
     // Checking if user is not loggedIn

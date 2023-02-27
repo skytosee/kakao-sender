@@ -9,8 +9,10 @@ function App() {
   const navigate = useNavigate();
   const [isLoggedIn, setisLoggedIn] = useState(false);
   const [token, setToken] = useState("");
-  console.log("App location3", window.location.href);
+  console.log("App location4", window.location.href);
  
+  let { code } = useParams();
+
   /*
   useEffect(() => {
     // Checking if user is not loggedIn
@@ -26,9 +28,10 @@ function App() {
 
   return (   
     <Routes>   
-      <Route path='/main' element={<Main token={token}/>} />
-      <Route path="/:code" element={<KakaoRedirect logInCallBack= {(token) => {setisLoggedIn(true); setToken(token); }}/>} />     
-      <Route path='/' element={<LogIn/>} />       
+      <Route path='/main' element={<Main token={token}/>} />      
+      <Route path='/' element={<LogIn/>}>
+        <Route path=":code" element={<KakaoRedirect logInCallBack= {(token) => {setisLoggedIn(true); setToken(token); }}/>} />     
+      </Route>       
     </Routes>    
   );
 }

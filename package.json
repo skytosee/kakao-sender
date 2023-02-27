@@ -1,7 +1,7 @@
 {
   "main": "public/Main.js",
   "_homepage": "./",
-  "homepage": "https://skytosee.github.io/kakaosender/",
+  "homepage": "https://skytosee.github.io/kakao-sender/",
   "name": "kakaosender",
   "version": "0.1.0",
   "private": true,

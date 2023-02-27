@@ -9,7 +9,7 @@ function App() {
   const navigate = useNavigate();
   const [isLoggedIn, setisLoggedIn] = useState(false);
   const [token, setToken] = useState("");
-  console.log("App location2", window.location.href);
+  console.log("App location3", window.location.href);
  
   /*
   useEffect(() => {

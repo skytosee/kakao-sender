@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../css/Login.css';
 
 const REST_API_KEY = "891d0a7d7eb0c26136e5ca4450b7f8bd";
-const REDIRECT_URI =  "https://skytosee.github.io/kakaosender";
+const REDIRECT_URI =  "https://skytosee.github.io/kakao-sender";
 const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=talk_message,friends`;
 
 class LogIn extends Component

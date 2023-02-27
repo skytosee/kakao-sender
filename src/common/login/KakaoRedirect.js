@@ -21,7 +21,7 @@ const KakaoRedirect = (props) => {
   const getAuthToken = async (code) => {
     const grant_type = "authorization_code";   
     const REST_API_KEY = "891d0a7d7eb0c26136e5ca4450b7f8bd";
-    const REDIRECT_URI =  "https://skytosee.github.io/kakaosender";
+    const REDIRECT_URI =  "https://skytosee.github.io/kakao-sender";
     const url = `https://kauth.kakao.com/oauth/token?grant_type=${grant_type}&client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&code=${code}`
     const params = {
         method: "GET", 

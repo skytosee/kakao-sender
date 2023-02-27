@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kakao-sender/static/css/main.c58a2fc0.css",
-    "main.js": "/kakao-sender/static/js/main.2244c7d4.js",
+    "main.js": "/kakao-sender/static/js/main.eb4d314e.js",
     "static/js/787.03c77f5d.chunk.js": "/kakao-sender/static/js/787.03c77f5d.chunk.js",
     "index.html": "/kakao-sender/index.html",
     "main.c58a2fc0.css.map": "/kakao-sender/static/css/main.c58a2fc0.css.map",
-    "main.2244c7d4.js.map": "/kakao-sender/static/js/main.2244c7d4.js.map",
+    "main.eb4d314e.js.map": "/kakao-sender/static/js/main.eb4d314e.js.map",
     "787.03c77f5d.chunk.js.map": "/kakao-sender/static/js/787.03c77f5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c58a2fc0.css",
-    "static/js/main.2244c7d4.js"
+    "static/js/main.eb4d314e.js"
   ]
 }
